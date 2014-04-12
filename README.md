@@ -1,7 +1,7 @@
 ## WlsConfR
 
 Decrypt the entries in a weblogic server's config.xml using the SerializedSystemIni.dat file of the server.
-The following application server are currently supported :
+The following application server are currently supported (higher/lower versions might work also, I haven't had the chance to test) :
 
 * **Weblogic 8,9**, data is encrypted using 3DES (EDE) with CBC and PKCS5Padding
 * **Weblogic 10**, encryption algorithm is AES using CBC and PKCS5Padding
